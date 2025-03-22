@@ -15,16 +15,16 @@ asdf plugin add alias https://github.com/andrewthauer/asdf-alias.git
 
 ## Use
 
-asdf alias <plugin> <name> [<version> | --auto | --remove]"
-asdf alias <plugin> --auto"
-asdf alias <plugin> [--list]"
+asdf cmd alias <plugin> <name> [<version> | --auto | --remove]"
+asdf cmd alias <plugin> --auto"
+asdf cmd alias <plugin> [--list]"
 
 ```sh
-asdf alias java 11.0 adopt-openjdk-11.0
-asdf alias java 11.0 --remove
-asdf alias java --auto
-asdf alias java --list
-asdf alias java --remove
+asdf cmd alias java 11.0 adopt-openjdk-11.0
+asdf cmd alias java 11.0 --remove
+asdf cmd alias java --auto
+asdf cmd alias java --list
+asdf cmd alias java --remove
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
